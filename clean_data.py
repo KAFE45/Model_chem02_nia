@@ -1,7 +1,7 @@
 import pandas as pd
 
 def clean_experimental_data(input_path, output_path):
-    print(f"กำลังอ่านและคลีนไฟล์: {input_path} ...")
+    print(f"กำลังอ่าน: {input_path} ...")
     
     try:
         # 1. โหลดข้อมูลและจัดการหัวตาราง (Index)
